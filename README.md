@@ -28,7 +28,7 @@ This repository contains an automated QGIS workflow for identifying hydrological
 
 This project is licensed under the MIT License.
 
-**Author:** [Your Name]  
+**Author:** [Kaan Ozgun]  
 **Institution:** [Your Institution]
 
 If you use this tool in your research, please cite the paper listed below.
