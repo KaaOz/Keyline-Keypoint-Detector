@@ -18,6 +18,20 @@ This repository contains an automated QGIS workflow for identifying hydrological
 3. Select the file. The tool will appear under the "Keyline Analysis" group.
    *Note: This script includes automatic fixes for common SAGA path issues and pixel geometry errors.*
 
+### Usage
+
+1. **Input:** A raw Digital Elevation Model (DEM). Do not fill sinks beforehand.
+
+2. **Parameters:**
+* **Radial Limit:** 1000m (Default/Optimized for catchment scale).
+* **Threshold Angle:** 0.5° (Default).
+* **Min Area:** 500 m² (Default significance threshold).
+
+3. **Run:** The tool will generate a point layer of Keypoints with rich attribute data.
+
+4. **Styling Outcomes(.qml):** To visualize the results correctly, apply the provided QGIS Layer Style files:
+* **Geomorphon Raster:** Right-click the geomorphon layer > Properties > Symbology > Style > Load Style... > Select geomorphons.qml.
+* **Keypoints Layer:** Right-click the point layer > Properties > Symbology > Style > Load Style... > Select keypoint_styles.qml. This will automatically color-code points by their tier (Primary, Secondary, etc.).
 
 ## Licensing & Authorship
 
