@@ -13,7 +13,7 @@ This repository contains an automated QGIS workflow for identifying hydrological
 
 ### Processing Script
 
-1. Download `keypoint_detector.py`.
+1. Download `keyline_keypoint_detector.py`.
 2. Open QGIS > Processing Toolbox > Scripts icon > "Add Script to Toolbox".
 3. Select the file. The tool will appear under the "Keyline Analysis" group.
    *Note: This script includes automatic fixes for common SAGA path issues and pixel geometry errors.*
