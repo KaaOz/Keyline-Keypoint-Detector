@@ -30,8 +30,8 @@ This repository contains an automated QGIS workflow for identifying hydrological
 3. **Run:** The tool will generate a point layer of Keypoints with rich attribute data.
 
 4. **Styling Outcomes(.qml):** To visualize the results correctly, apply the provided QGIS Layer Style files:
-* **Geomorphon Raster:** Right-click the geomorphon layer > Properties > Symbology > Style > Load Style... > Select geomorphons.qml.
-* **Keypoints Layer:** Right-click the point layer > Properties > Symbology > Style > Load Style... > Select keypoint_styles.qml. This will automatically color-code points by their tier (Primary, Secondary, etc.).
+* **Geomorphon Raster:** Right-click the geomorphon layer > Properties > Symbology > Style > Load Style... > Select `Geomorphon_10class.qml`.
+* **Keypoints Layer:** Right-click the point layer > Properties > Symbology > Style > Load Style... > Select keypoint_styles.qml. This will automatically color-code points by their tier (Primary, Secondary, Tertiary, Quaternary).
 
 ## Licensing & Authorship
 
